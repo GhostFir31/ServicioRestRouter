@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const bodyParser = require('body-parser'); 
+const bodyParser = require('body-parser');
 
 const activoController = require('./controladores/activoController');
 const responsableController = require('./controladores/responsableController');
