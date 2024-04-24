@@ -1,5 +1,5 @@
 
-const activoModel = require('/home/omarleal/MyCodeProjects/JavaScript/ServicioRest/modelos/activoModel');
+const activoModel = require('../modelos/activoModel');
 
 const obtenerActivos = (req, res) => {
     const activos = activoModel.obtenerTodos();

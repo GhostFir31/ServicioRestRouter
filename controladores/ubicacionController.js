@@ -1,5 +1,5 @@
 
-const ubicacionModel = require('/home/omarleal/MyCodeProjects/JavaScript/ServicioRest/modelos/ubicacionModel');
+const ubicacionModel = require('../modelos/ubicacionModel');
 
 const obtenerUbicaciones = (req, res) => {
     const ubicaciones = ubicacionModel.obtenerTodos();
